@@ -1,0 +1,330 @@
+@import url(all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /* header */
+.navbar{
+    padding: 0 !important;
+}
+ .container-fluid{
+    background-color: navy;
+}
+.navbar-brand{
+    width: 15%;
+}
+.header .navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-right: 2rem;
+}
+.header .navbar-nav .nav-item {
+    margin-right: 2rem;
+}
+.header .navbar-nav .nav-item i{
+    color: white;
+    margin: auto;
+}
+.header .navbar-nav .nav-item .fa-user{
+    margin-bottom: 1rem !important;
+}
+.header .navbar .navbar-nav .search {
+    margin-top: 1rem;
+    width: 350px;
+}
+.header .navbar .navbar-nav .search .input-group-text{
+    padding: .5rem;
+}
+.header .navbar-nav .nav-item .fa-cart-shopping {
+    margin-left: 0;
+}
+
+
+    /* carousel */
+.carousel {
+    background: linear-gradient(to right, #d7afc3, #add8e6);
+}
+#mycarousel .carousel-inner .carousel-item .carousel-caption{
+    color: black;
+}
+#mycarousel .carousel-inner .carousel-item .carousel-logo img{
+    width: 150px;
+    display: flex;
+    justify-content: end;
+    margin-left: 6.25rem;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-content{
+    position: relative;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-logo{
+    position: relative;
+    left: 70%;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-caption{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-caption .small{
+    color: gray;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-caption h2{
+    font-size: 5rem;
+}
+
+.carousel #mycarousel .carousel-inner .carousel-item .carousel-caption .btn-primary{
+    width: 15%;
+    background-color: navy;
+}
+
+
+        /* card */
+
+.middle .row .card{
+    border: none;
+}
+.middle .row .col-lg-6{
+    padding: 0;
+}
+.middle .row .card .card-body-1 img{
+    width: 18.75rem;
+    height: 12rem;
+}
+.middle .row .card .card-body-1 .position{
+    position: relative;
+    overflow: hidden;
+}
+.middle .row .card .card-body-1 .position img{
+    position: relative;
+    left: 0;
+    top: 2rem;
+    display: block;
+}
+.middle .row .card .card-body-1 .position span{
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    left: 40%;
+    width: 18.75rem;
+}
+.middle .row .card .card-body-1 .position p{
+    font-size: 0.8rem;
+}
+
+
+.middle .row .card .card-body-2{
+    background-color: #ADC2D7;
+}
+.middle .row .card .card-body-2 img{
+    width: 27rem;
+    height: 25rem;
+}
+.middle .row .card .card-body-2 .position{
+    position: relative;
+    overflow: hidden;
+}
+.middle .row .card .card-body-2 .position img{
+    position: relative;
+    left: 0;
+    top: 2rem;
+    transform: translateY(-20%);
+}
+.middle .row .card .card-body-2 .position span{
+    position: absolute;
+    top: 6rem;
+    right: 100%;
+    left: 60%;
+    width: 18.75rem;
+}
+.middle .row .card .card-body-2 .position p{
+    font-size: 0.8rem;
+}
+
+
+.middle .row .color{
+    background-color: #EDEDED;
+}
+.middle .row .card .move {
+    position: relative;  
+}
+
+.middle .row .card .move .left {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    margin-top: 10rem;
+}
+
+.middle .row .card .move .right {
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    width: 80%; 
+    height: auto;
+    margin-top: 7rem;
+}
+
+.middle .row .card .move .left p, .middle .row .card .move .left h2 {
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.middle .row .card .move .left .btn-primary{
+    background-color: #27448E;
+}
+
+
+    /* Category css */
+
+.category .row .card{
+    width: 12rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+}
+
+.category .row .card i{
+    font-size: 2rem;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.category .row .card .card-text{
+    margin-left: 25%;
+}
+
+.category .row h6{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+    /* Product CSS */
+
+
+.product .product-text p{
+    padding-right: 2rem;
+    margin-top: 4rem;
+}
+
+.product .card i{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
+}
+
+.product .card{
+    border: none;
+    border-radius: none;
+    background-color: #F6F6F6;
+}
+
+.product .card .card-body .btn-primary{
+    background-color: black;
+}
+
+
+        /* sale css */
+
+.sale{
+    background-color: #958AD4;
+}
+
+
+
+
+        /* footer */
+
+.footer{
+    background-color: #0E071B;
+}
+.footer .container .icon i{
+    margin-right: 2rem;
+    color: white;
+}
+.footer .container .list-unstyled{
+    color: #CFCFCF;
+}
+
+
+
+
+
+
+
+        /* media query */
+
+@media only screen and (max-width: 425px) {
+    .search{
+        display: none;
+    }
+
+    .header .navbar .navbar-brand .logo{
+        font-size: 50px;
+    }
+
+    .header .navbar .container-fluid .navbar-toggler{
+        color: white;
+    }
+
+    .carousel #mycarousel .carousel-inner .carousel-item .carousel-caption{
+        font-size: 0.025rem;
+    }
+
+    .carousel #mycarousel .carousel-inner .carousel-item .carousel-content{
+        position: relative;
+    }
+    
+    .carousel #mycarousel .carousel-inner .carousel-item .carousel-logo{
+        position: relative;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .middle .row .card .card-body-2 .position{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .carousel #mycarousel .carousel-inner .carousel-item .carousel-caption{
+        position: absolute;
+        top: 0;
+        width: 50%;
+    }
+
+    .middle .row .card .card-body-1 .position span{
+        position: absolute;
+        left: -100px;
+    }
+
+    .footer .container .col-12{
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13rem; 
+    }
+
+    .carousel #mycarousel .carousel-inner .carousel-item .carousel-caption p{
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
